@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#header{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 100px 400px;
+    width: 100%;
+}
+#header a{
+    color: white;
+    text-decoration: none;
+}
+#header .top_left a{
+    color: yellow;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 600;
+    width: 20%;
+    float: left;
+}
+#header .top_right{
+    font-size: large;
+    font-weight: 600;
+    width: 80%;
+    float: right;
+    text-align: right;
+    
+}
+
+#header .top_right a{
+    margin-left: 40px;
+}
+
+.bottom {
+    color: white;
+    text-align: center;  
+}
+.bottom .welcome{
+    margin-top: 200px;
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+}
+.bottom .down_weclome{
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+}
+
+.bottom .button{
+    background-color: rgb(247, 186, 73);
+    border-radius: 4px ;
+    padding: 20px 50px;
+    display:inline-block;   
+}
+#service .top{
+    padding: 150px;
+    text-align: center;
+
+}
+#service .top h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+#service .top h3{
+    font-style: italic;
+    margin-top: 10px;
+}
+#service .bottom{
+    background-color: white;
+    color: black;
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+.box1{
+    width: 20%;
+    color: black;
+    margin-left: 100px;
+}
+.box2{
+    width: 20%;
+    color: black;
+    margin-left: 280px;
+}
+.box3{
+    
+    width: 20%;
+    color: black;
+    margin-left: 280px;
+}
+
+#portfile {
+    width: 100%;
+}
+
+
+#portfile .top-text h1{
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 17px;
+}
+#portfile .top-text p{
+    font-size: 30px;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.562);
+}
+
+#portfile .top-text{
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 80px;
+}
+
+.box{
+    overflow: auto;
+    margin: 20px 5% 70px;
+    width: 23%;
+    float: left;
+}
+img{
+    width: 100%;
+}
+
+.bottom .bottom{
+    margin-top: 10px;
+    color: black;
+}
+.bottom .bottom h1{
+    margin-bottom: 5px;
+}
+
+#team {
+    width: 100%;
+    text-align: center;
+    margin-top: 1200px;
+}
+
+#team img{
+    clip-path: circle(50% at 50% 50%);
+    width: 60%;
+    margin-top: 100px;
+
+}
+#team .text h1{
+    font-size: 1.5rem;
+    color: black;
+    
+}
+#team .text p{
+    line-height: 1.75;
+    color: #6c757D;
+}
+#team .bottom_text{
+    line-height: 1.75;
+    color: #6c757D;
+}
+#contact{
+    background-color: #212529;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#contact .top h1{
+    color: #fff;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+#contact .top p{
+    font-size: 1.75rem;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+#contact .bottom{
+    width: 100%;
+}
+#contact .left {
+    padding: 40px;
+    width: 30%;
+    float: left;
+}
+#contact .left input{
+    width: 460px;
+    padding: 1rem 5rem;
+    margin-top: 30px;
+}
+#contact .right{
+    width: 60%;
+    padding: 1rem;
+    float: right;
+    margin-top: 60px;
+}
+#contact .right textarea{
+    padding: 30px 200px;
+}
+.contact_btn button{
+    margin-top: 100px;
+    margin-right: 350px;
+    padding: 16px;
+    background-color: #ffc800;
+    border-color: #ffc800;
+    font-size: 1.125rem;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    color: #fff;
+}
+#footer{
+    width: 100%;
+    color: #212529;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+#footer .left{
+    float: left;
+    width: 40%;
+    margin-left: 30px;
+}
+#footer .right{
+    width: 40%;
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+}
